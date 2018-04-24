@@ -1,19 +1,22 @@
 {
-  "name": "proxy-server",
+  "name": "fec-proxy-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server/proxy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/proxy.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hchesnutt/fec-proxy-server.git"
+    "url": "https://github.com/hchesnutt/fec-proxy-server.git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hchesnutt/fec-proxy-server/issues"
-  },
-  "homepage": "https://github.com/hchesnutt/fec-proxy-server#readme"
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  }
 }
