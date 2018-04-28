@@ -5,7 +5,8 @@
   "main": "server/proxy.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server/proxy.js"
+    "start": "nodemon server/proxy.js",
+    "startremote": "node server/proxy.js"
   },
   "repository": {
     "type": "git",

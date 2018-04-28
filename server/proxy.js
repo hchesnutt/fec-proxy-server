@@ -14,4 +14,4 @@ app.use((req, res, next) => {
   next();
 });
 
-app.listen(PORT, () => console.log(`Proxy server listening at http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(`Proxy server listening at http://host:${PORT}`));
